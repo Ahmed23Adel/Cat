@@ -9,7 +9,8 @@ suppose for column "LandContour", it's object ("string"), it has values {"Lvl","
 and taking these columns take values:
 
 
-![Uploading Screen Shot 2021-08-28 at 2.59.52 PM.png…]()
+<img width="572" alt="Screen Shot 2021-08-28 at 3 02 23 PM" src="https://user-images.githubusercontent.com/69484554/131218836-a06c1147-26b0-4b86-b185-2d1780622fa0.png">
+
 
 if cell ith row for column LandContour_Low equal one; then that mean that LandContour in 4th row is equal to "Low", otherwise it equal to zero.
 
@@ -31,4 +32,7 @@ df = pd.DataFrame(data)
 print(df.head())
 expand_cat_cols_rmv_cols(df,rmv=['Street'],exclude=['Name'])
 print(df.head())
+
+Language used: python</br>
+
 
