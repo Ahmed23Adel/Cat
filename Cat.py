@@ -89,15 +89,3 @@ def expand_cat_cols_rmv_cols(df,rmv=None,exclude=None):
 
 
 
-data = {'Name':['Tom', 'nick', 'krish', 'jack'],
-        'Age':[20, 21, 19, 18],'MSZoning':['RL','RM','RL','FV'],
-        'Street':['Pave','Pave','Grvl','Grvl'],
-        'Alley':['Pave','Grvl','Pave','Grvl'],
-        'LandContour':['Lvl','HLS','Bnk','Low']}
-
-# Create DataFrame
-df = pd.DataFrame(data)
-
-# Print the output.
-expand_cat_cols_rmv_cols(df,rmv=['Street'],exclude=['Name'])
-print(df.head())
