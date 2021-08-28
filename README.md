@@ -18,6 +18,7 @@ if cell ith row for column LandContour_Low equal one; then that mean that LandCo
 
 
 code example:
+``` python
 
 data = {'Name':['Tom', 'nick', 'krish', 'jack'],
         'Age':[20, 21, 19, 18],'MSZoning':['RL','RM','RL','FV'],
@@ -33,6 +34,7 @@ print(df.head())
 expand_cat_cols_rmv_cols(df,rmv=['Street'],exclude=['Name'])
 print(df.head())
 
+```
 Language used: python</br>
 
 
