@@ -37,7 +37,7 @@ print(df.head())
 ```
 
 quick documentation :
-
+```python
 def expand_cat_cols_rmv_all(df,exclude=None):
     """ for each non numeric colum say X, take all value of that column, Y, and Z; we create 
     column X_Y, and X_Z  and remove column X. and insert values 0, or 1 saying ith row is equal to
@@ -45,7 +45,9 @@ def expand_cat_cols_rmv_all(df,exclude=None):
     
     this funcoitn removes all previous columsn X
 """
+```
 
+```python
 def expand_cat_cols_rmv_cols(df,rmv=None,exclude=None):
     """ for each non numeric colum say X, take all value of that column, Y, and Z; we create 
     column X_Y, and X_Z  and remove column X. and insert values 0, or 1 saying ith row is equal to
@@ -53,6 +55,7 @@ def expand_cat_cols_rmv_cols(df,rmv=None,exclude=None):
 
     this doesn't delete all column, only in rmv list
     """
+```
 
 Language used: python</br>
 
